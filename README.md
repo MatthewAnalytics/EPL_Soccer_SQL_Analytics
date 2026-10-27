@@ -5,21 +5,21 @@
 
 ---
 
-## 📌 Project Overview & Objective
+## Project Overview & Objective
 This project analyzes over 20 years of historical English Premier League match records to evaluate macro-level sports trends and isolate clean team performance metrics. In sports analytics, evaluating historical data without filtering out era biases or text anomalies yields inaccurate results. 
 
 The core objective of this study was to engineer an optimized data pipeline in **PostgreSQL** that removes chronological era skewing, standardizes messy raw string fields, and utilizes advanced table expressions to identify the ultimate competitive resilience metrics across the history of the league.
 
 ---
 
-## 🛠️ Tech Stack & Database Architecture
+## Tech Stack & Database Architecture
 *   **Database Engine:** PostgreSQL
 *   **Visual Interface:** pgAdmin 4
 *   **Core Concepts Demonstrated:** Conditional Logic (`CASE WHEN`), Data Type Casting (`::NUMERIC`), Common Table Expressions (CTEs), Partitioned Window Functions (`ROW_NUMBER()`), Set Operations (`UNION ALL`).
 
 ---
 
-## 📊 Strategic Business Questions & Key Findings
+## Strategic Business Questions & Key Findings
 
 ### 1. Macro Trend Analysis: Is Home Field Advantage Vanishing?
 *   **The Problem:** All-time team averages merge completely different eras together, creating a flat signal. 
@@ -39,7 +39,7 @@ The core objective of this study was to engineer an optimized data pipeline in *
 
 ---
 
-## 💻 SQL Query Breakdown & Highlights
+## SQL Query Breakdown & Highlights
 
 ### Advanced Set Operations & CTEs: The Absolute Comeback Leaderboard
 This query demonstrates the ability to vertically align independent conditional filters and compute totals across split dimensional layers (`home_team` vs `away_team` tracking).
