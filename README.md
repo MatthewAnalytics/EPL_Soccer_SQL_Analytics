@@ -98,5 +98,5 @@ ORDER BY home_goal_differential DESC;
 
 ---
 
-## 📈 Summary Conclusion
+## Summary Conclusion
 By shifting focus from flat static lookup summaries to granular, partitioned data engineering models, this project extracted clean, action-oriented intelligence from thousands of messy raw match rows. It proves capability in data manipulation, critical data auditing, and complex schema logic necessary for professional enterprise business analytics.
